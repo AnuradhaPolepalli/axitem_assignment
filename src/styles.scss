@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+$font-family-sans-serif: 'Inter', sans-serif;
+$primary-color:#4CAF4F;
+$secondary-color:#F5F7FA;
+$gary-dark:#4D4D4D;
+$gary-medium:#717171;
+$gary-light:#89939E;
+$font-14: clamp(12px, 1.2vw, 14px);
+$font-16: clamp(14px, 1.5vw, 16px);
+$font-20: clamp(16px, 2vw, 20px);
+$font-28: clamp(20px, 2.8vw, 28px);
+$font-36: clamp(26px, 3.6vw, 36px);
+$font-64: clamp(40px, 5vw, 64px);
+body {
+    font-family: $font-family-sans-serif;
+    background-color: $secondary-color;
+}
+.bg-gary{
+    background-color: $secondary-color;
+}
+
+.text-sc{
+    color: $secondary-color;
+}
+.text-gary-medium{
+    color: $gary-medium;
+}
+.text-gary-dark{
+    color: $gary-dark;
+}
+
+.text-gary-light{
+    color: $gary-light;
+}
+.fs-14{
+    font-size: $font-14;
+}
+.fs-16{
+    font-size: $font-16;
+}
+.fs-20{
+    font-size: $font-20;
+}
+.fs-28{
+    font-size: $font-28;
+}
+.fs-36{
+    font-size: $font-36;
+}
+.fs-64{
+    font-size: $font-64;
+}
+.text-green{
+    color: $primary-color;
+}
+.btn-green{
+    background-color: $primary-color;
+    color: #ffffff;
+}
+.btn:hover,.btn:focus{
+      background-color: $primary-color;
+      color: #ffffff;
+}
+.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active{
+    background-color: $primary-color;
+      color: #ffffff;
+}

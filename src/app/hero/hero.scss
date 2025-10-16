@@ -1,0 +1,46 @@
+.img-h{
+    height: 345px;
+}
+
+.reg-btn{
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+}
+/* --- Carousel Indicators Outside --- */
+.carousel-indicators {
+  position: absolute;
+  bottom: -40px; // push indicators outside the box
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+/* --- Make Indicators Circular --- */
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+  
+  opacity: 1;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+/* --- Active Indicator --- */
+.carousel-indicators .active {
+  background-color: #4CAF4F;
+  transform: scale(1.2);
+}
+
+/* --- Optional: Center fix for small screens --- */
+@media (max-width: 576px) {
+  .carousel-indicators {
+    bottom: -30px;
+  }
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+  }
+}

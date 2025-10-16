@@ -1,0 +1,44 @@
+.ft-btn{
+    width: 178px;
+    height: 52px;
+    border-radius: 4px;
+}
+.bg-blacks{
+    background-color: #263238;
+}
+
+.sc-icons>li{
+    background-color: #ffffff38;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    a{
+        color: #ffffff;
+    }
+
+}
+
+.ft-input{
+    border-radius: 8px;
+    background-color: #ffffff38;
+     height: 40px;
+}
+ .form-control{
+        background-color: transparent;
+        border: none;
+        height: 40px;
+        width: 255px;
+    }
+    .form-control::placeholder{
+        color: #ffffff;
+    }
+.form-control:focus{
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+   
+}
